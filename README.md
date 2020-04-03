@@ -99,3 +99,16 @@ for i in named_entity_recogonition:
 persons_mentioned = ' '.join(list_1)
 
 ![NER](https://user-images.githubusercontent.com/53376072/78356394-1b00bc80-75cd-11ea-93c5-d321aadfe47e.JPG)
+
+<font size ='4'>**Feature engineering done using**</font>
+* BOW - Bag of words
+* TFIDF
+* Word2Vec Features
+* LDA - Topic modeling
+
+<font size ='4'>**Models used for prediction**</font>
+* Logistic Regression
+* SVM
+* Random Forest
+* XGBoost
+
