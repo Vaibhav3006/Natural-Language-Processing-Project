@@ -89,15 +89,6 @@ Tags are accessible through the `.label_` property of an entity.
 
 <font size ='4'>**Function used for NER visualization**</font>
 
-list_1 = []
-
-named_entity_recogonition =  all_data['tweet_lemma_spacy'].loc[0:40000].apply(lambda x: [ent.text for ent in nlp(x).ents if (ent.label_ == 'PERSON' or ent.label_ == 'NORP' )])
-
-for i in named_entity_recogonition:
-        list_1.extend(i)
-        
-persons_mentioned = ' '.join(list_1)
-
 ![NER](https://user-images.githubusercontent.com/53376072/78356394-1b00bc80-75cd-11ea-93c5-d321aadfe47e.JPG)
 
 <font size ='4'>**Feature engineering done using**</font>
