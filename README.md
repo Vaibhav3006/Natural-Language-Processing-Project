@@ -27,7 +27,7 @@ This is the reason that extensive use of regular expression was done for cleanin
 
 <font size ='4'>**Work flow of the Data**</font>
 
-Below is the sample of data after performingcleaning and data processing steps like removing stopwords,stemming and lemmatization. I have tried to compare the functioning of **NLTK** and **Spacy** libraries.
+Below is the sample of data after cleaning and data processing steps like removing stopwords,stemming and lemmatization. I have tried to compare the functioning of **NLTK** and **Spacy** libraries.
 
 ![Data after](https://user-images.githubusercontent.com/53376072/78354445-7c269100-75c9-11ea-8ed0-471b992b5797.JPG)
 
